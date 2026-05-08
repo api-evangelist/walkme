@@ -1,6 +1,6 @@
 # WalkMe (walkme)
 
-WalkMe is a digital adoption platform that overlays guidance, automation, and analytics on web applications to drive feature adoption and reduce support burden.
+WalkMe is a Digital Adoption Platform delivering in-app guidance, walkthroughs, and analytics that help users navigate and adopt enterprise applications.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/walkme/refs/heads/main/apis.yml)
 
@@ -10,14 +10,23 @@ WalkMe is a digital adoption platform that overlays guidance, automation, and an
 - **x-type:** company
 
 ## Tags:
- - Product, Digital Adoption, Onboarding, In-App, Enterprise
+ - Digital Adoption, In-App Guidance, Productivity, Analytics, Onboarding
 
 ## Timestamps
 - **Created:** 2026-05-08
 - **Modified:** 2026-05-08
 
+## APIs
+
+### WalkMe Public API
+WalkMe Public APIs provide programmatic access to insights data, account/system metadata, content publishing, and integration with the WalkMe digital adoption platform.
+
+- **Human URL:** https://developers.walkme.com/
+- **Base URL:** https://api.walkme.com
+
 ## Common Properties
 - [Website](https://www.walkme.com/)
+- [Documentation](https://developers.walkme.com/)
 - [Plans](plans/walkme-plans-pricing.yml) — placeholder, pipeline reconciles later
 - [RateLimits](rate-limits/walkme-rate-limits.yml) — placeholder
 - [FinOps](finops/walkme-finops.yml) — FOCUS-aligned placeholder

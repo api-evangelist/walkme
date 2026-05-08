@@ -3,21 +3,39 @@ url: https://raw.githubusercontent.com/api-evangelist/walkme/refs/heads/main/api
 name: WalkMe
 x-type: company
 description: >-
-  WalkMe is a digital adoption platform that overlays guidance, automation, and analytics on web applications to drive feature adoption and reduce support burden.
+  WalkMe is a Digital Adoption Platform delivering in-app guidance, walkthroughs, and analytics that help users navigate and adopt enterprise applications.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Product
   - Digital Adoption
+  - In-App Guidance
+  - Productivity
+  - Analytics
   - Onboarding
-  - In-App
-  - Enterprise
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: walkme:walkme-public-api
+    name: WalkMe Public API
+    description: >-
+      WalkMe Public APIs provide programmatic access to insights data, account/system metadata, content publishing, and integration with the WalkMe digital adoption platform.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developers.walkme.com/
+    baseURL: https://api.walkme.com
+    tags:
+      - Digital Adoption
+      - Analytics
+      - REST
+    properties:
+      - type: Documentation
+        url: https://developers.walkme.com/
+      - type: Authentication
+        url: https://developers.walkme.com/Public-API/Authentication.htm
 common:
   - type: Website
     url: https://www.walkme.com/
+  - type: Documentation
+    url: https://developers.walkme.com/
   - type: Plans
     url: plans/walkme-plans-pricing.yml
   - type: RateLimits
