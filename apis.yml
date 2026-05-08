@@ -1,0 +1,29 @@
+aid: walkme
+url: https://raw.githubusercontent.com/api-evangelist/walkme/refs/heads/main/apis.yml
+name: WalkMe
+x-type: company
+description: >-
+  WalkMe is a digital adoption platform that overlays guidance, automation, and analytics on web applications to drive feature adoption and reduce support burden.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Product
+  - Digital Adoption
+  - Onboarding
+  - In-App
+  - Enterprise
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.walkme.com/
+  - type: Plans
+    url: plans/walkme-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/walkme-rate-limits.yml
+  - type: FinOps
+    url: finops/walkme-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
