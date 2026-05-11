@@ -42,6 +42,15 @@ common:
     url: rate-limits/walkme-rate-limits.yml
   - type: FinOps
     url: finops/walkme-finops.yml
+  - type: Integrations
+    url: https://www.walkme.com/integrations/
+integrations:
+  - name: arrow
+  - name: icon
+  - name: avtar
+  - name: Poster-Image
+  - name: logos slider
+  - name: Cros
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
