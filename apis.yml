@@ -1,7 +1,7 @@
 aid: walkme
 url: https://raw.githubusercontent.com/api-evangelist/walkme/refs/heads/main/apis.yml
 name: WalkMe
-x-type: company
+kind: company
 description: >-
   WalkMe is a Digital Adoption Platform delivering in-app guidance, walkthroughs, and analytics that help users navigate and adopt enterprise applications.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
