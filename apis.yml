@@ -32,6 +32,10 @@ apis:
       - type: Authentication
         url: https://developers.walkme.com/Public-API/Authentication.htm
 common:
+  - type: GitHubOrganization
+    url: https://github.com/WalkMe
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/walkme
   - type: Website
     url: https://www.walkme.com/
   - type: Documentation
