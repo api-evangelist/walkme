@@ -32,6 +32,10 @@ apis:
       - type: Authentication
         url: https://developers.walkme.com/Public-API/Authentication.htm
 common:
+  - type: TrustCenter
+    url: security/walkme-trust-center.yml
+  - type: DomainSecurity
+    url: security/walkme-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/WalkMe
   - type: LinkedIn
@@ -48,6 +52,8 @@ common:
     url: finops/walkme-finops.yml
   - type: Integrations
     url: https://www.walkme.com/integrations/
+  - url: https://www.walkme.com/blog/feed/
+    type: Blog
 integrations:
   - name: arrow
   - name: icon
