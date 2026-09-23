@@ -1,0 +1,29 @@
+# Front Door AI Index — walkme — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: walkme
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.walkme.com
+  final_host: www.walkme.com
+  ownership: own
+  owner: walkme
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 52
+  host_score: 52
+  density: 28.6
+  words: 1818
+  tiers:
+    agentic: 2
+    core: 50
+    model: 0
+  ambiguous: 13
+  top_terms:
+    AI: 50
+    automation: 10
+    agent: 2
+    agentic: 2
+    intelligence: 1
