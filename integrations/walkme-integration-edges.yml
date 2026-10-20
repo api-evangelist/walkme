@@ -2,6 +2,8 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://azuremarketplace.microsoft.com/
+- https://cloudsecurityalliance.org/star/registry
+- https://eucoc.cloud/en/public-register/list-of-adherent-services
 - https://govramp.org/program-participants
 - https://raw.githubusercontent.com/18F/fedramp-data/4b73d9247fd6360759960e4690e3ce4ca858e0fa/data/data.json
 - https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-15/suppliers
@@ -24,31 +26,6 @@ edges:
   seller_name: WalkMe, Inc.
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
-- partner_name: Twilio Segment
-  partner: segment
-  partner_match: aggregator
-  marketplace: segment-partner-destinations
-  channel: partner-built
-  direction: third-party
-  type: marketplace
-  relationship: platform-app
-  evidence: https://www.twilio.com/docs/segment/connections/destinations/catalog/walkme
-  coverage_role:
-  - destination
-  cdp_signals:
-    destination:
-      catalog_entries:
-      - walkme
-      status: PUBLIC
-      partner_owned: true
-      connection_modes:
-      - device:web
-      accepted_methods:
-      - Identify
-      - Page
-      - Track
-  detected_by: sweep-cdp.py
-  first_seen: '2026-10-14'
 - partner_name: Okta (own)
   partner: okta
   partner_match: mirror
@@ -76,6 +53,31 @@ edges:
   - OIDC
   - SAML
   - UPDATE
+- partner_name: Twilio Segment
+  partner: segment
+  partner_match: aggregator
+  marketplace: segment-partner-destinations
+  channel: partner-built
+  direction: third-party
+  type: marketplace
+  relationship: platform-app
+  evidence: https://www.twilio.com/docs/segment/connections/destinations/catalog/walkme
+  coverage_role:
+  - destination
+  cdp_signals:
+    destination:
+      catalog_entries:
+      - walkme
+      status: PUBLIC
+      partner_owned: true
+      connection_modes:
+      - device:web
+      accepted_methods:
+      - Identify
+      - Page
+      - Track
+  detected_by: sweep-cdp.py
+  first_seen: '2026-10-14'
 - partner_name: FedRAMP
   partner: null
   partner_match: register
@@ -139,4 +141,34 @@ edges:
     detected: '2026-10-15'
   detected_by: sweep-gov-cloud.py
   first_seen: '2026-10-15'
+- partner_name: Cloud Security Alliance STAR Registry
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://cloudsecurityalliance.org/star/registry/walkme/services/walkme
+  category: Cloud security assurance
+  contract_reference:
+    register: CSA STAR Registry (cloudsecurityalliance.org/star/registry)
+    spec_file: null
+    standard: CSA STAR
+    role: star-level-1
+    registered_name: WalkMe
+    registry_id: walkme
+    service_url: http://www.walkme.com/
+    matched_domain: walkme.com
+    matched_by: domain
+    identity_source: the service URL the organisation filed on its STAR listing (no lookup)
+    levels:
+    - STAR Level 1
+    certified_products: []
+    signal_note: STAR Level 1 (CAIQ self-assessment) = participation; certified_products = one entry per STAR Level
+      2 / STAR for AI Level 2 assessment TYPE (third-party certification, attestation, C-STAR, ValidAIted); lapsed
+      = every instance marked (Deprecated) by the registry; service counts never recorded
+    detected_by: sweep-compliance-assurance.py
+    detected: '2026-10-20'
+  detected_by: sweep-compliance-assurance.py
+  first_seen: '2026-10-20'
 source: https://www.twilio.com/docs/segment/connections/destinations/catalog/walkme
