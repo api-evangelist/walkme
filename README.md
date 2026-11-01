@@ -1,4 +1,4 @@
-# WalkMe (walkme)
+# WalkMe
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,36 +66,103 @@
 
 WalkMe is a Digital Adoption Platform delivering in-app guidance, walkthroughs, and analytics that help users navigate and adopt enterprise applications.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/walkme/refs/heads/main/apis.yml)
+**Areas:** Digital Adoption · In-App Guidance · Productivity · Analytics · Onboarding
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=walkme-api-evangelist&utm_content=repo)
+## WalkMe on APIs.io
 
-## Type
-- **x-type:** company
+Everything profiled for WalkMe is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/walkme/](https://apis.io/providers/walkme/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
- - Digital Adoption, In-App Guidance, Productivity, Analytics, Onboarding
+### APIs (1)
 
-## Timestamps
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+- [WalkMe Public API](https://apis.io/apis/walkme/walkme-public-api/) — WalkMe Public APIs provide programmatic access to insights data, account/system metadata, content publishing, and integration with the WalkMe digital…
 
-## APIs
+### Published properties
 
-### WalkMe Public API
-WalkMe Public APIs provide programmatic access to insights data, account/system metadata, content publishing, and integration with the WalkMe digital adoption platform.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Human URL:** https://developers.walkme.com/
-- **Base URL:** https://api.walkme.com
+#### Security (2)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Walkme Domain Security](https://apis.io/security/walkme/walkme-domain-security/)
+- [Walkme Trust Center](https://apis.io/security/walkme/walkme-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Walkme Plans Pricing](https://apis.io/plans/walkme/walkme-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Walkme Rate Limits](https://apis.io/rate-limits/walkme/walkme-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Walkme Finops](https://apis.io/finops/walkme/walkme-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.walkme.com/)
 - [Documentation](https://developers.walkme.com/)
-- [Plans](plans/walkme-plans-pricing.yml) — placeholder, pipeline reconciles later
-- [RateLimits](rate-limits/walkme-rate-limits.yml) — placeholder
-- [FinOps](finops/walkme-finops.yml) — FOCUS-aligned placeholder
+- [Blog](https://www.walkme.com/blog/feed/)
+- [GitHub](https://github.com/WalkMe)
 
-## Maintainers
-**FN:** Kin Lane
+## API Evangelist rating
 
-**Email:** kin@apievangelist.com
+**Kin Score 12.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 13.1 |
+| Access clarity | 13.2 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/walkme/](https://apis.io/providers/walkme/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for WalkMe: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/walkme/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
